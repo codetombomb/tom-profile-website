@@ -1,0 +1,22 @@
+{
+  "name": "tom-profile",
+  "version": "1.0.0",
+  "description": "A website portfolio for Tom Tobar",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Tom Tobar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
