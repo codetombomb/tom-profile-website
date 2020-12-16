@@ -443,6 +443,142 @@ body #about .about-container .stripes .stripe-13 {
   left: -920px;
 }
 
+@media screen and (max-width: 850px) {
+  body #about .about-container .stripes {
+    bottom: 90px;
+    left: 40px;
+  }
+  body #about .about-container .stripes .stripe-6 {
+    display: none;
+  }
+  body #about .about-container .stripes .stripe-7 {
+    display: none;
+  }
+  body #about .about-container .stripes .stripe-8 {
+    display: none;
+  }
+  body #about .about-container .stripes .stripe-9 {
+    display: none;
+  }
+  body #about .about-container .stripes .stripe-10 {
+    display: none;
+  }
+  body #about .about-container .stripes .stripe-11 {
+    display: none;
+  }
+  body #about .about-container .stripes .stripe-12 {
+    display: none;
+  }
+  body #about .about-container .stripes .stripe-13 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #about .about-container .stripes {
+    bottom: 140px;
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  body #about .about-container .stripes .stripe-1 {
+    position: relative;
+    height: 40px;
+    width: 250vw;
+    top: 250px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-2 {
+    position: relative;
+    height: 30px;
+    width: 240vw;
+    top: 152px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-3 {
+    position: relative;
+    height: 20px;
+    width: 230vw;
+    top: 80px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-4 {
+    position: relative;
+    height: 15px;
+    width: 215vw;
+    top: 40px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-5 {
+    position: relative;
+    height: 10px;
+    width: 194vw;
+    top: 30px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-6 {
+    display: block;
+    position: relative;
+    height: 8px;
+    width: 175vw;
+    top: 25px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-7 {
+    display: block;
+    position: relative;
+    height: 6px;
+    width: 160vw;
+    top: 15px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-8 {
+    display: block;
+    position: relative;
+    height: 4px;
+    width: 140vw;
+    top: 20px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-9 {
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 123vw;
+    top: 20px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-10 {
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 108vw;
+    top: 20px;
+    left: -330px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+}
+
 body #about .about-container .about-logo {
   width: 400px;
   height: 400px;
