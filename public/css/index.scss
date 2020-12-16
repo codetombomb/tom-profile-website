@@ -31,6 +31,7 @@ body {
     #home {
         height: 100vh;
         background-color: black;
+        overflow: hidden;
 
         @media screen and (max-width: 800px) {
             display: flex;
@@ -223,13 +224,12 @@ body {
     #about {
         height: 100vh;
         background-color: white;
+        overflow: hidden;
 
         .about-container {
             .stripes {
                 position: relative;
                 bottom: 0px;
-
-
 
                 .stripe-1 {
                     height: 55px;
@@ -362,12 +362,8 @@ body {
                 }
 
                 @media screen and (max-width: 850px) {
-                    bottom: 90px;
-                    left: 40px;
-
-                    .stripe-6 {
-                        display: none;
-                    }
+                    bottom: 50px;
+                    left: 65px;
 
                     .stripe-7 {
                         display: none;
@@ -506,9 +502,9 @@ body {
                 height: 400px;
                 background-color: $valeYellow;
                 border-radius: 50%;
-                box-shadow: 5px 10px 20px rgb(137, 47, 255);
+                box-shadow: 5px 10px 20px rgba(85, 81, 90, 0.479);
                 position: relative;
-                left: 700px;
+                left: 60vw;
                 bottom: 130px;
 
                 .tom-hair {
@@ -516,11 +512,27 @@ body {
                     right: 50px;
                     height: 300px;
                     bottom: 140px;
+
+                    @media screen and (max-width: 1040px) {
+                        top: 0px;
+                        height: 25vw;
+                    }
+
+                    @media screen and (max-width: 850px) {
+                        top: 0px;
+                        height: 70%;
+                    }
+
+                    @media screen and (max-width: 525px) {
+                        height: 225px;
+                        bottom: 80px;
+                        left: 35px;
+                    }
                 }
 
                 .button {
-                    height: 75px;
-                    width: 300px;
+                    height: 9vw;
+                    width: 30vw;
                     border: 1px solid black;
                     border-radius: 50px;
                     @include flexCenter(column);
@@ -528,13 +540,51 @@ body {
                     bottom: 0px;
                     left: -70px;
 
+
+                    // @media screen and (max-width: 1040px) {
+                    //     height: 50px;
+                    //     width: 250px;
+                    //     left: -40px;
+                    // }
+
+                    @media screen and (max-width: 850px) {
+                        left: -80px;
+                    }
+
                     a {
                         text-decoration: none;
                         font-family: Futura;
-                        font-size: 60px;
+                        font-size: 6vw;
                         color: black;
                         letter-spacing: 10px;
+
+                        // @media screen and (max-width: 1040px) {
+                        //     font-size: 40px;
+                        // }
                     }
+                }
+
+                @media screen and (max-width: 1040px) {
+                    width: 38vw;
+                    height: 38vw;
+                    left: 50vw;
+                }
+
+                @media screen and (max-width: 850px) {
+                    width: 40vw;
+                    height: 40vw;
+                    bottom: 75px;
+                }
+
+                @media screen and (max-width: 740px) {
+                    left: 30vw;
+                }
+
+                @media screen and (max-width: 525px) {
+                    width: 80vw;
+                    height: 80vw;
+                    bottom: 20vh;
+                    left: 10vw;
                 }
             }
         }

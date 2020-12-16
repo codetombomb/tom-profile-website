@@ -21,6 +21,7 @@ body {
 body #home {
   height: 100vh;
   background-color: black;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 800px) {
@@ -293,6 +294,7 @@ body #home .home-container .home-title .home-title-dev .o-span {
 body #about {
   height: 100vh;
   background-color: white;
+  overflow: hidden;
 }
 
 body #about .about-container .stripes {
@@ -445,11 +447,8 @@ body #about .about-container .stripes .stripe-13 {
 
 @media screen and (max-width: 850px) {
   body #about .about-container .stripes {
-    bottom: 90px;
-    left: 40px;
-  }
-  body #about .about-container .stripes .stripe-6 {
-    display: none;
+    bottom: 50px;
+    left: 65px;
   }
   body #about .about-container .stripes .stripe-7 {
     display: none;
@@ -584,10 +583,10 @@ body #about .about-container .about-logo {
   height: 400px;
   background-color: #C6F91F;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 10px 20px #892fff;
-          box-shadow: 5px 10px 20px #892fff;
+  -webkit-box-shadow: 5px 10px 20px rgba(85, 81, 90, 0.479);
+          box-shadow: 5px 10px 20px rgba(85, 81, 90, 0.479);
   position: relative;
-  left: 700px;
+  left: 60vw;
   bottom: 130px;
 }
 
@@ -598,9 +597,31 @@ body #about .about-container .about-logo .tom-hair {
   bottom: 140px;
 }
 
+@media screen and (max-width: 1040px) {
+  body #about .about-container .about-logo .tom-hair {
+    top: 0px;
+    height: 25vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body #about .about-container .about-logo .tom-hair {
+    top: 0px;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  body #about .about-container .about-logo .tom-hair {
+    height: 225px;
+    bottom: 80px;
+    left: 35px;
+  }
+}
+
 body #about .about-container .about-logo .button {
-  height: 75px;
-  width: 300px;
+  height: 9vw;
+  width: 30vw;
   border: 1px solid black;
   border-radius: 50px;
   display: -webkit-box;
@@ -621,12 +642,49 @@ body #about .about-container .about-logo .button {
   left: -70px;
 }
 
+@media screen and (max-width: 850px) {
+  body #about .about-container .about-logo .button {
+    left: -80px;
+  }
+}
+
 body #about .about-container .about-logo .button a {
   text-decoration: none;
   font-family: Futura;
-  font-size: 60px;
+  font-size: 6vw;
   color: black;
   letter-spacing: 10px;
+}
+
+@media screen and (max-width: 1040px) {
+  body #about .about-container .about-logo {
+    width: 38vw;
+    height: 38vw;
+    left: 50vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body #about .about-container .about-logo {
+    width: 40vw;
+    height: 40vw;
+    bottom: 75px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  body #about .about-container .about-logo {
+    left: 30vw;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  body #about .about-container .about-logo {
+    width: 80vw;
+    height: 80vw;
+    bottom: 20vh;
+    left: 10vw;
+  }
 }
 
 body #works {
