@@ -23,6 +23,7 @@
 $valeYellow: #C6F91F;
 $faceHighlighter: #c6f91f77;
 $undertakerGrey: rgb(131, 128, 145);
+$stripeWidth: 200vw;
 
 body {
     padding: 0;
@@ -229,11 +230,12 @@ body {
         .about-container {
             .stripes {
                 position: relative;
-                bottom: 0px;
+                left: -585px;
+                top: 0px;
 
                 .stripe-1 {
                     height: 55px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -243,7 +245,7 @@ body {
 
                 .stripe-2 {
                     height: 50px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -253,7 +255,7 @@ body {
 
                 .stripe-3 {
                     height: 45px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -263,7 +265,7 @@ body {
 
                 .stripe-4 {
                     height: 40px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -273,7 +275,7 @@ body {
 
                 .stripe-5 {
                     height: 35px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -283,7 +285,7 @@ body {
 
                 .stripe-6 {
                     height: 30px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -293,7 +295,7 @@ body {
 
                 .stripe-7 {
                     height: 20px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -303,7 +305,7 @@ body {
 
                 .stripe-8 {
                     height: 10px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -313,7 +315,7 @@ body {
 
                 .stripe-9 {
                     height: 5px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -323,7 +325,7 @@ body {
 
                 .stripe-10 {
                     height: 2.5px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -333,7 +335,7 @@ body {
 
                 .stripe-11 {
                     height: 2px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -343,7 +345,7 @@ body {
 
                 .stripe-12 {
                     height: 1px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -353,7 +355,7 @@ body {
 
                 .stripe-13 {
                     height: .5px;
-                    width: 100vw;
+                    width: $stripeWidth;
                     background-color: black;
                     transform: rotate(-45deg);
                     position: relative;
@@ -361,139 +363,157 @@ body {
                     left: -920px;
                 }
 
-                @media screen and (max-width: 850px) {
-                    bottom: 50px;
-                    left: 65px;
-
-                    .stripe-7 {
-                        display: none;
-                    }
-
-                    .stripe-8 {
-                        display: none;
-                    }
-
-                    .stripe-9 {
-                        display: none;
-                    }
-
-                    .stripe-10 {
-                        display: none;
-                    }
-
-                    .stripe-11 {
-                        display: none;
-                    }
-
-                    .stripe-12 {
-                        display: none;
-                    }
-
-                    .stripe-13 {
-                        display: none;
-                    }
+                @media screen and (max-width: 1400px) {
+                    left: -690px;
                 }
 
-                @media screen and (max-width: 600px) {
-                    bottom: 140px;
-                    left: 100px;
+                @media screen and (max-width: 1250px) {
+                    left: -550px;
                 }
 
-                @media screen and (max-width: 460px) {
+                @media screen and (max-width: 1150px) {
+                    left: -430px;
+                }
+
+                @media screen and (max-width: 950px) {
+                    left: -290px;
+                }
+
+                @media screen and (max-width: 800px) {
+                    left: -210px;
+
                     .stripe-1 {
                         position: relative;
                         height: 40px;
-                        width: 250vw;
-                        top: 250px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -400px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-2 {
                         position: relative;
                         height: 30px;
-                        width: 240vw;
-                        top: 152px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -505px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-3 {
                         position: relative;
                         height: 20px;
-                        width: 230vw;
-                        top: 80px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -587px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-4 {
                         position: relative;
                         height: 15px;
-                        width: 215vw;
-                        top: 40px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -654px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-5 {
                         position: relative;
                         height: 10px;
-                        width: 194vw;
-                        top: 30px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -709px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-6 {
-                        display: block;
                         position: relative;
                         height: 8px;
-                        width: 175vw;
-                        top: 25px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -758px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-7 {
-                        display: block;
                         position: relative;
                         height: 6px;
-                        width: 160vw;
-                        top: 15px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -802px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-8 {
-                        display: block;
                         position: relative;
                         height: 4px;
-                        width: 140vw;
-                        top: 20px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -842px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-9 {
-                        display: block;
                         position: relative;
                         height: 3px;
-                        width: 123vw;
-                        top: 20px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -878px;
                         transform: rotate(-50deg);
                     }
 
                     .stripe-10 {
-                        display: block;
                         position: relative;
                         height: 2px;
-                        width: 108vw;
-                        top: 20px;
-                        left: -330px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -912px;
                         transform: rotate(-50deg);
                     }
+
+                    .stripe-11 {
+                        position: relative;
+                        height: 1.5px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -945px;
+                        transform: rotate(-50deg);
+                    }
+
+                    .stripe-12 {
+                        position: relative;
+                        height: 1px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -977px;
+                        transform: rotate(-50deg);
+                    }
+
+                    .stripe-13 {
+                        position: relative;
+                        height: .5px;
+                        width: 260vw;
+                        top: 135px;
+                        left: -1005px;
+                        transform: rotate(-50deg);
+                    }
+                }
+
+                @media screen and (max-width: 750px) {
+                    left: -130px;
+                }
+
+                @media screen and (max-width: 650px) {
+                    left: 0px;
+                }
+
+                @media screen and (max-width: 450px) {
+                    left: 175px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    left: 210px;
                 }
             }
 
@@ -508,29 +528,15 @@ body {
                 bottom: 130px;
 
                 .tom-hair {
+                    display: none;
                     position: absolute;
                     right: 50px;
                     height: 300px;
                     bottom: 140px;
-
-                    @media screen and (max-width: 1040px) {
-                        top: 0px;
-                        height: 25vw;
-                    }
-
-                    @media screen and (max-width: 850px) {
-                        top: 0px;
-                        height: 70%;
-                    }
-
-                    @media screen and (max-width: 525px) {
-                        height: 225px;
-                        bottom: 80px;
-                        left: 35px;
-                    }
                 }
 
                 .button {
+                    display: none;
                     height: 9vw;
                     width: 30vw;
                     border: 1px solid black;
@@ -540,51 +546,14 @@ body {
                     bottom: 0px;
                     left: -70px;
 
-
-                    // @media screen and (max-width: 1040px) {
-                    //     height: 50px;
-                    //     width: 250px;
-                    //     left: -40px;
-                    // }
-
-                    @media screen and (max-width: 850px) {
-                        left: -80px;
-                    }
-
                     a {
+                        display: none;
                         text-decoration: none;
                         font-family: Futura;
                         font-size: 6vw;
                         color: black;
                         letter-spacing: 10px;
-
-                        // @media screen and (max-width: 1040px) {
-                        //     font-size: 40px;
-                        // }
                     }
-                }
-
-                @media screen and (max-width: 1040px) {
-                    width: 38vw;
-                    height: 38vw;
-                    left: 50vw;
-                }
-
-                @media screen and (max-width: 850px) {
-                    width: 40vw;
-                    height: 40vw;
-                    bottom: 75px;
-                }
-
-                @media screen and (max-width: 740px) {
-                    left: 30vw;
-                }
-
-                @media screen and (max-width: 525px) {
-                    width: 80vw;
-                    height: 80vw;
-                    bottom: 20vh;
-                    left: 10vw;
                 }
             }
         }

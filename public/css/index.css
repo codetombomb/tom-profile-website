@@ -299,12 +299,13 @@ body #about {
 
 body #about .about-container .stripes {
   position: relative;
-  bottom: 0px;
+  left: -585px;
+  top: 0px;
 }
 
 body #about .about-container .stripes .stripe-1 {
   height: 55px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -315,7 +316,7 @@ body #about .about-container .stripes .stripe-1 {
 
 body #about .about-container .stripes .stripe-2 {
   height: 50px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -326,7 +327,7 @@ body #about .about-container .stripes .stripe-2 {
 
 body #about .about-container .stripes .stripe-3 {
   height: 45px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -337,7 +338,7 @@ body #about .about-container .stripes .stripe-3 {
 
 body #about .about-container .stripes .stripe-4 {
   height: 40px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -348,7 +349,7 @@ body #about .about-container .stripes .stripe-4 {
 
 body #about .about-container .stripes .stripe-5 {
   height: 35px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -359,7 +360,7 @@ body #about .about-container .stripes .stripe-5 {
 
 body #about .about-container .stripes .stripe-6 {
   height: 30px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -370,7 +371,7 @@ body #about .about-container .stripes .stripe-6 {
 
 body #about .about-container .stripes .stripe-7 {
   height: 20px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -381,7 +382,7 @@ body #about .about-container .stripes .stripe-7 {
 
 body #about .about-container .stripes .stripe-8 {
   height: 10px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -392,7 +393,7 @@ body #about .about-container .stripes .stripe-8 {
 
 body #about .about-container .stripes .stripe-9 {
   height: 5px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -403,7 +404,7 @@ body #about .about-container .stripes .stripe-9 {
 
 body #about .about-container .stripes .stripe-10 {
   height: 2.5px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -414,7 +415,7 @@ body #about .about-container .stripes .stripe-10 {
 
 body #about .about-container .stripes .stripe-11 {
   height: 2px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -425,7 +426,7 @@ body #about .about-container .stripes .stripe-11 {
 
 body #about .about-container .stripes .stripe-12 {
   height: 1px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -436,7 +437,7 @@ body #about .about-container .stripes .stripe-12 {
 
 body #about .about-container .stripes .stripe-13 {
   height: .5px;
-  width: 100vw;
+  width: 200vw;
   background-color: black;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -445,136 +446,174 @@ body #about .about-container .stripes .stripe-13 {
   left: -920px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1400px) {
   body #about .about-container .stripes {
-    bottom: 50px;
-    left: 65px;
-  }
-  body #about .about-container .stripes .stripe-7 {
-    display: none;
-  }
-  body #about .about-container .stripes .stripe-8 {
-    display: none;
-  }
-  body #about .about-container .stripes .stripe-9 {
-    display: none;
-  }
-  body #about .about-container .stripes .stripe-10 {
-    display: none;
-  }
-  body #about .about-container .stripes .stripe-11 {
-    display: none;
-  }
-  body #about .about-container .stripes .stripe-12 {
-    display: none;
-  }
-  body #about .about-container .stripes .stripe-13 {
-    display: none;
+    left: -690px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1250px) {
   body #about .about-container .stripes {
-    bottom: 140px;
-    left: 100px;
+    left: -550px;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 1150px) {
+  body #about .about-container .stripes {
+    left: -430px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body #about .about-container .stripes {
+    left: -290px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body #about .about-container .stripes {
+    left: -210px;
+  }
   body #about .about-container .stripes .stripe-1 {
     position: relative;
     height: 40px;
-    width: 250vw;
-    top: 250px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -400px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-2 {
     position: relative;
     height: 30px;
-    width: 240vw;
-    top: 152px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -505px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-3 {
     position: relative;
     height: 20px;
-    width: 230vw;
-    top: 80px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -587px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-4 {
     position: relative;
     height: 15px;
-    width: 215vw;
-    top: 40px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -654px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-5 {
     position: relative;
     height: 10px;
-    width: 194vw;
-    top: 30px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -709px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-6 {
-    display: block;
     position: relative;
     height: 8px;
-    width: 175vw;
-    top: 25px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -758px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-7 {
-    display: block;
     position: relative;
     height: 6px;
-    width: 160vw;
-    top: 15px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -802px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-8 {
-    display: block;
     position: relative;
     height: 4px;
-    width: 140vw;
-    top: 20px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -842px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-9 {
-    display: block;
     position: relative;
     height: 3px;
-    width: 123vw;
-    top: 20px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -878px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
   }
   body #about .about-container .stripes .stripe-10 {
-    display: block;
     position: relative;
     height: 2px;
-    width: 108vw;
-    top: 20px;
-    left: -330px;
+    width: 260vw;
+    top: 135px;
+    left: -912px;
     -webkit-transform: rotate(-50deg);
             transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-11 {
+    position: relative;
+    height: 1.5px;
+    width: 260vw;
+    top: 135px;
+    left: -945px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-12 {
+    position: relative;
+    height: 1px;
+    width: 260vw;
+    top: 135px;
+    left: -977px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  body #about .about-container .stripes .stripe-13 {
+    position: relative;
+    height: .5px;
+    width: 260vw;
+    top: 135px;
+    left: -1005px;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body #about .about-container .stripes {
+    left: -130px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body #about .about-container .stripes {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body #about .about-container .stripes {
+    left: 175px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body #about .about-container .stripes {
+    left: 210px;
   }
 }
 
@@ -591,35 +630,15 @@ body #about .about-container .about-logo {
 }
 
 body #about .about-container .about-logo .tom-hair {
+  display: none;
   position: absolute;
   right: 50px;
   height: 300px;
   bottom: 140px;
 }
 
-@media screen and (max-width: 1040px) {
-  body #about .about-container .about-logo .tom-hair {
-    top: 0px;
-    height: 25vw;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  body #about .about-container .about-logo .tom-hair {
-    top: 0px;
-    height: 70%;
-  }
-}
-
-@media screen and (max-width: 525px) {
-  body #about .about-container .about-logo .tom-hair {
-    height: 225px;
-    bottom: 80px;
-    left: 35px;
-  }
-}
-
 body #about .about-container .about-logo .button {
+  display: none;
   height: 9vw;
   width: 30vw;
   border: 1px solid black;
@@ -642,49 +661,13 @@ body #about .about-container .about-logo .button {
   left: -70px;
 }
 
-@media screen and (max-width: 850px) {
-  body #about .about-container .about-logo .button {
-    left: -80px;
-  }
-}
-
 body #about .about-container .about-logo .button a {
+  display: none;
   text-decoration: none;
   font-family: Futura;
   font-size: 6vw;
   color: black;
   letter-spacing: 10px;
-}
-
-@media screen and (max-width: 1040px) {
-  body #about .about-container .about-logo {
-    width: 38vw;
-    height: 38vw;
-    left: 50vw;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  body #about .about-container .about-logo {
-    width: 40vw;
-    height: 40vw;
-    bottom: 75px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  body #about .about-container .about-logo {
-    left: 30vw;
-  }
-}
-
-@media screen and (max-width: 525px) {
-  body #about .about-container .about-logo {
-    width: 80vw;
-    height: 80vw;
-    bottom: 20vh;
-    left: 10vw;
-  }
 }
 
 body #works {
