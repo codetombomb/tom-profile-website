@@ -14,8 +14,8 @@
 }
 
 body {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 body #home {
@@ -620,7 +620,7 @@ body #about .about-container .stripes .stripe-13 {
   }
 }
 
-body #about .about-container .about-logo {
+body #about .about-container .about-logo-circle {
   width: 491px;
   height: 491px;
   background-color: #C6F91F;
@@ -632,17 +632,111 @@ body #about .about-container .about-logo {
   top: -175px;
 }
 
-body #about .about-container .about-logo .tom-hair {
-  display: none;
-  position: absolute;
-  right: 50px;
-  height: 300px;
-  bottom: 140px;
+@media screen and (max-width: 1250px) {
+  body #about .about-container .about-logo-circle {
+    left: 650px;
+  }
 }
 
-body #about .about-container .about-logo .button {
-  display: none;
-  height: 9vw;
+@media screen and (max-width: 1150px) {
+  body #about .about-container .about-logo-circle {
+    width: 400px;
+    height: 400px;
+    top: -118px;
+    left: 500px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body #about .about-container .about-logo-circle {
+    width: 345px;
+    height: 345px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body #about .about-container .about-logo-circle {
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body #about .about-container .about-logo-circle {
+    top: 0px;
+    left: 28.7vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body #about .about-container .about-logo-circle {
+    width: 325px;
+    height: 325px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body #about .about-container .about-logo-circle {
+    left: 113px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body #about .about-container .about-logo-circle {
+    left: 47.5px;
+    width: 80vw;
+    height: 80vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body #about .about-container .about-logo-circle {
+    left: 35px;
+    width: 80vw;
+    height: 80vw;
+  }
+}
+
+body #about .about-container .about-logo-circle .tom-logo-hair {
+  position: absolute;
+  right: 30px;
+  height: 400px;
+  bottom: 100px;
+}
+
+@media screen and (max-width: 1150px) {
+  body #about .about-container .about-logo-circle .tom-logo-hair {
+    height: 315px;
+    bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body #about .about-container .about-logo-circle .tom-logo-hair {
+    height: 270px;
+    bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body #about .about-container .about-logo-circle .tom-logo-hair {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body #about .about-container .about-logo-circle .tom-logo-hair {
+    top: -5px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  body #about .about-container .about-logo-circle .tom-logo-hair {
+    left: 20px;
+  }
+}
+
+body #about .about-container .about-logo-circle .about-logo-button {
+  height: 7vw;
   width: 30vw;
   border: 1px solid black;
   border-radius: 50px;
@@ -660,80 +754,99 @@ body #about .about-container .about-logo .button {
       -ms-flex-direction: column;
           flex-direction: column;
   position: absolute;
-  bottom: 0px;
-  left: -70px;
-}
-
-body #about .about-container .about-logo .button a {
-  display: none;
-  text-decoration: none;
-  font-family: Futura;
-  font-size: 6vw;
-  color: black;
-  letter-spacing: 10px;
+  bottom: -10px;
+  left: -90px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1250px) {
-  body #about .about-container .about-logo {
-    left: 650px;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: -65px;
   }
 }
 
 @media screen and (max-width: 1150px) {
-  body #about .about-container .about-logo {
-    width: 400px;
-    height: 400px;
-    top: -118px;
-    left: 500px;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: -70px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: -55px;
   }
 }
 
 @media screen and (max-width: 950px) {
-  body #about .about-container .about-logo {
-    width: 345px;
-    height: 345px;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: -50px;
   }
 }
 
 @media screen and (max-width: 850px) {
-  body #about .about-container .about-logo {
-    left: 400px;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: -45px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  body #about .about-container .about-logo {
-    top: 0px;
-    left: 28.7vw;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    top: 60vh;
+    width: 40vh;
+    height: 10vw;
+    left: 20px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body #about .about-container .about-logo {
-    width: 325px;
-    height: 325px;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: -32px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  body #about .about-container .about-logo {
-    left: 113px;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: -7px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  body #about .about-container .about-logo {
-    left: 47.5px;
-    width: 80vw;
-    height: 80vw;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: 8px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  body #about .about-container .about-logo {
-    left: 35px;
-    width: 80vw;
-    height: 80vw;
+  body #about .about-container .about-logo-circle .about-logo-button {
+    left: 0px;
+  }
+}
+
+body #about .about-container .about-logo-circle .about-logo-button a {
+  position: relative;
+  left: 15px;
+  text-decoration: none;
+  font-family: Futura;
+  font-size: 5vw;
+  color: black;
+  letter-spacing: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+  body #about .about-container .about-logo-circle .about-logo-button a {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  body #about .about-container .about-logo-circle .about-logo-button a {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body #about .about-container .about-logo-circle .about-logo-button a {
+    font-size: 6vw;
   }
 }
 
@@ -754,14 +867,15 @@ body #works .works-container .works-logo {
   height: 400px;
   background-color: #C6F91F;
   position: relative;
-  top: 75px;
-  left: 250px;
+  left: 10%;
+  top: 20%;
 }
 
 body #works .works-container .works-logo .brackets {
   font-family: Futura;
   font-size: 325px;
   position: relative;
+  top: .8vh;
 }
 
 body #works .works-container .works-logo .brackets .close-bracket {
