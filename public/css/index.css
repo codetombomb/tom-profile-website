@@ -314,6 +314,16 @@ body #works .works-container .works-logo {
           box-shadow: 15px 15px 0 -5px black, 15px 15px #C6F91F, 30px 30px 0 -5px black, 30px 30px #C6F91F, 45px 45px 0 -5px black, 45px 45px #C6F91F;
 }
 
+@media screen and (max-width: 400px) {
+  body #works .works-container .works-logo {
+    width: 225px;
+    height: 225px;
+    top: 10%;
+    -webkit-box-shadow: 12px 12px 0 -2px black, 12px 12px #C6F91F, 24px 24px 0 -2px black, 24px 24px #C6F91F, 36px 36px 0 -2px black, 36px 36px #C6F91F;
+            box-shadow: 12px 12px 0 -2px black, 12px 12px #C6F91F, 24px 24px 0 -2px black, 24px 24px #C6F91F, 36px 36px 0 -2px black, 36px 36px #C6F91F;
+  }
+}
+
 body #works .works-container .works-logo .brackets {
   font-family: Futura;
   font-size: 325px;
@@ -321,10 +331,23 @@ body #works .works-container .works-logo .brackets {
   top: .8vh;
 }
 
+@media screen and (max-width: 400px) {
+  body #works .works-container .works-logo .brackets {
+    font-size: 180px;
+  }
+}
+
 body #works .works-container .works-logo .brackets .close-bracket {
   position: absolute;
   top: 0px;
   left: 292px;
+}
+
+@media screen and (max-width: 400px) {
+  body #works .works-container .works-logo .brackets .close-bracket {
+    font-size: 180px;
+    left: 167px;
+  }
 }
 
 body #works .works-container .works-logo .brackets .love {
@@ -337,6 +360,15 @@ body #works .works-container .works-logo .brackets .love {
           transform: rotate(90deg);
   bottom: 105px;
   left: -50px;
+}
+
+@media screen and (max-width: 400px) {
+  body #works .works-container .works-logo .brackets .love {
+    font-size: 25px;
+    letter-spacing: 23px;
+    left: -25px;
+    bottom: 65px;
+  }
 }
 
 body #works .works-container .works-logo .brackets .love span {
@@ -366,6 +398,14 @@ body #works .works-container .works-logo .brackets .code {
   position: absolute;
   top: 60px;
   right: 90px;
+}
+
+@media screen and (max-width: 400px) {
+  body #works .works-container .works-logo .brackets .code {
+    font-size: 75px;
+    top: 20px;
+    right: 45px;
+  }
 }
 
 body #works .works-container .button {

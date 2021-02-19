@@ -724,9 +724,20 @@ body {
                 position: relative;
                 left: 10%;
                 top: 20%;
-                box-shadow: 15px 15px 0 -5px black, 15px 15px $valeYellow,
-                            30px 30px 0 -5px black, 30px 30px $valeYellow,
-                            45px 45px 0 -5px black, 45px 45px $valeYellow;
+                box-shadow: 
+                15px 15px 0 -5px black, 15px 15px $valeYellow,
+                30px 30px 0 -5px black, 30px 30px $valeYellow,
+                45px 45px 0 -5px black, 45px 45px $valeYellow;
+
+                @media screen and (max-width: 400px){
+                    width: 225px;
+                    height: 225px;
+                    top: 10%;
+                    box-shadow: 
+                    12px 12px 0 -2px black, 12px 12px $valeYellow,
+                    24px 24px 0 -2px black, 24px 24px $valeYellow,
+                    36px 36px 0 -2px black, 36px 36px $valeYellow;
+                }
 
                 .brackets {
                     font-family: Futura;
@@ -734,10 +745,19 @@ body {
                     position: relative;
                     top: .8vh;
 
+                    @media screen and (max-width: 400px){
+                        font-size: 180px;
+                    }
+
                     .close-bracket {
                         position: absolute;
                         top: 0px;
                         left: 292px;
+
+                        @media screen and (max-width: 400px){
+                            font-size: 180px;
+                            left: 167px;
+                        }
                     }
 
                     .love {
@@ -749,6 +769,13 @@ body {
                         transform: rotate(90deg);
                         bottom: 105px;
                         left: -50px;
+
+                        @media screen and (max-width: 400px){
+                            font-size: 25px;
+                            letter-spacing: 23px;
+                            left: -25px;
+                            bottom: 65px;
+                        }
 
                         span {
                             float: left;
@@ -765,6 +792,12 @@ body {
                         position: absolute;
                         top: 60px;
                         right: 90px;
+
+                        @media screen and (max-width: 400px){
+                            font-size: 75px;
+                            top: 20px;
+                            right: 45px;
+                        }
                     }
                 }
             }
