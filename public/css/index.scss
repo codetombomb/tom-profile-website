@@ -724,19 +724,19 @@ body {
                 position: relative;
                 left: 10%;
                 top: 20%;
-                box-shadow: 
-                15px 15px 0 -5px black, 15px 15px $valeYellow,
-                30px 30px 0 -5px black, 30px 30px $valeYellow,
-                45px 45px 0 -5px black, 45px 45px $valeYellow;
+                box-shadow:
+                    15px 15px 0 -5px black, 15px 15px $valeYellow,
+                    30px 30px 0 -5px black, 30px 30px $valeYellow,
+                    45px 45px 0 -5px black, 45px 45px $valeYellow;
 
-                @media screen and (max-width: 400px){
+                @media screen and (max-width: 400px) {
                     width: 225px;
                     height: 225px;
                     top: 10%;
-                    box-shadow: 
-                    12px 12px 0 -2px black, 12px 12px $valeYellow,
-                    24px 24px 0 -2px black, 24px 24px $valeYellow,
-                    36px 36px 0 -2px black, 36px 36px $valeYellow;
+                    box-shadow:
+                        12px 12px 0 -2px black, 12px 12px $valeYellow,
+                        24px 24px 0 -2px black, 24px 24px $valeYellow,
+                        36px 36px 0 -2px black, 36px 36px $valeYellow;
                 }
 
                 .brackets {
@@ -745,7 +745,7 @@ body {
                     position: relative;
                     top: .8vh;
 
-                    @media screen and (max-width: 400px){
+                    @media screen and (max-width: 400px) {
                         font-size: 180px;
                     }
 
@@ -754,7 +754,7 @@ body {
                         top: 0px;
                         left: 292px;
 
-                        @media screen and (max-width: 400px){
+                        @media screen and (max-width: 400px) {
                             font-size: 180px;
                             left: 167px;
                         }
@@ -770,7 +770,7 @@ body {
                         bottom: 105px;
                         left: -50px;
 
-                        @media screen and (max-width: 400px){
+                        @media screen and (max-width: 400px) {
                             font-size: 25px;
                             letter-spacing: 23px;
                             left: -25px;
@@ -793,7 +793,7 @@ body {
                         top: 60px;
                         right: 90px;
 
-                        @media screen and (max-width: 400px){
+                        @media screen and (max-width: 400px) {
                             font-size: 75px;
                             top: 20px;
                             right: 45px;
@@ -822,7 +822,8 @@ body {
             }
         }
     }
-    .works-page{
+
+    .works-page {
         height: 100vh;
         background-color: black;
         position: relative;
@@ -837,13 +838,14 @@ body {
                     padding: 50% 0;
                     height: 0;
 
-                    .works-title{
+                    .works-title {
                         display: block;
                         font-family: Futura;
-                        font-weight:bold;
+                        font-weight: bold;
                         color: $valeYellow;
+                        letter-spacing: 10px;
                         text-transform: uppercase;
-                        font-size: 30vh;
+                        font-size: 26vh;
                         transform-origin: top left;
                         transform: rotate(90deg) translate(0, -65%);
                         margin-top: -48%;
@@ -851,6 +853,64 @@ body {
                     }
                 }
             }
+        }
+
+        .work-buttons-container {
+            position: relative;
+            top: -2vh;
+
+            .work-button-1 {
+                height: 25vh;
+                width: 25vh;
+                border: 5px solid $valeYellow;
+                border-radius: 25px;
+                position: absolute;
+                top: -90vh;
+                left: 12vw;
+                cursor: pointer;
+
+                .motogo-logo {
+                    width: 200px;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            .work-button-2 {
+                height: 25vh;
+                width: 25vh;
+                border: 5px solid $valeYellow;
+                border-radius: 25px;
+                position: absolute;
+                top: -60vh;
+                left: 12vw;
+                cursor: pointer;
+
+            }
+
+            .work-button-3 {
+                height: 25vh;
+                width: 25vh;
+                border: 5px solid $valeYellow;
+                border-radius: 25px;
+                position: absolute;
+                top: -30vh;
+                left: 12vw;
+                cursor: pointer;
+
+            }
+        }
+
+        .work-display-container {
+            height: 85vh;
+            width: 65vw;
+            border: 5px solid $valeYellow;
+            border-radius: 25px;
+            position: relative;
+            top: -92vh;
+            left: 30vw;
+
+
         }
     }
 
