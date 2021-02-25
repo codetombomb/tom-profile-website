@@ -291,6 +291,44 @@ body #home .home-container .home-title .home-title-dev .o-span {
   }
 }
 
+body #about {
+  background-image: url("../assets/photos/tom.png");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 75vh;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #about .about-content {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  padding: 10vw;
+  max-width: 40vw;
+  min-width: 20vw;
+}
+
+body #about .about-content .about-title {
+  font-family: Futura;
+  font-size: 3.5em;
+  margin: auto;
+}
+
+body #about .about-content .about-paragraph {
+  font-family: Avenir;
+}
+
 body #works {
   height: 100vh;
   background-color: black;
@@ -485,10 +523,19 @@ body .works-page .work-buttons-container .work-button-1 {
   top: -90vh;
   left: 12vw;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .works-page .work-buttons-container .work-button-1 .motogo-logo {
-  width: 200px;
+  width: 150px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -502,6 +549,21 @@ body .works-page .work-buttons-container .work-button-2 {
   top: -60vh;
   left: 12vw;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .works-page .work-buttons-container .work-button-2 .cc-logo {
+  width: 150px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 body .works-page .work-buttons-container .work-button-3 {
@@ -513,6 +575,21 @@ body .works-page .work-buttons-container .work-button-3 {
   top: -30vh;
   left: 12vw;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .works-page .work-buttons-container .work-button-3 .jeopardy-logo {
+  width: 150px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 body .works-page .work-display-container {
@@ -523,6 +600,22 @@ body .works-page .work-display-container {
   position: relative;
   top: -92vh;
   left: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: auto;
+}
+
+body .works-page .work-display-container .motogo-description {
+  width: 70%;
+}
+
+body .works-page .work-display-container .motogo-description .descripttion-title {
+  color: #C6F91F;
+  font-family: Futura;
 }
 
 body #contact {
@@ -585,7 +678,7 @@ body #contact .contact-container .contact-form {
           flex-direction: column;
 }
 
-body #contact .contact-container .contact-form top .email {
+body #contact .contact-container .contact-form .email {
   width: 100%;
 }
 

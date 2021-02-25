@@ -28,7 +28,6 @@ $stripeWidth: 200vw;
 body {
     padding: 0px;
     margin: 0px;
-    // overflow: hidden;
 
     #home {
         height: 100vh;
@@ -223,489 +222,35 @@ body {
         }
     }
 
-    // #about {
-    //     height: 100vh;
-    //     background-color: white;
-    //     overflow: hidden;
-    //     display: flex;
-
-    //     .about-container {
-    //         .stripes {
-    //             position: relative;
-    //             left: -585px;
-    //             top: 0px;
-
-    //             .stripe-1 {
-    //                 height: 55px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 255px;
-    //                 left: -210px;
-    //             }
-
-    //             .stripe-2 {
-    //                 height: 50px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 200px;
-    //                 left: -310px;
-    //             }
-
-    //             .stripe-3 {
-    //                 height: 45px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 150px;
-    //                 left: -405px;
-    //             }
-
-    //             .stripe-4 {
-    //                 height: 40px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 110px;
-    //                 left: -495px;
-    //             }
-
-    //             .stripe-5 {
-    //                 height: 35px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 75px;
-    //                 left: -580px;
-    //             }
-
-    //             .stripe-6 {
-    //                 height: 30px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 45px;
-    //                 left: -657px;
-    //             }
-
-    //             .stripe-7 {
-    //                 height: 20px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 25px;
-    //                 left: -727px;
-    //             }
-
-    //             .stripe-8 {
-    //                 height: 10px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 15px;
-    //                 left: -783px;
-    //             }
-
-    //             .stripe-9 {
-    //                 height: 5px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 10px;
-    //                 left: -825px;
-    //             }
-
-    //             .stripe-10 {
-    //                 height: 2.5px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: 0px;
-    //                 left: -852px;
-    //             }
-
-    //             .stripe-11 {
-    //                 height: 2px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: -10px;
-    //                 left: -876px;
-    //             }
-
-    //             .stripe-12 {
-    //                 height: 1px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: -20px;
-    //                 left: -899px;
-    //             }
-
-    //             .stripe-13 {
-    //                 height: .5px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: -30px;
-    //                 left: -920px;
-    //             }
-
-    //             .stripe-14{
-    //                 height: .5px;
-    //                 width: $stripeWidth;
-    //                 background-color: black;
-    //                 transform: rotate(-45deg);
-    //                 position: relative;
-    //                 top: -60px;
-    //                 left: -920px;
-    //                 // display: hidden;
-    //             }
-
-    //             @media screen and (max-width: 1400px) {
-    //                 left: -690px;
-    //             }
-
-    //             @media screen and (max-width: 1250px) {
-    //                 left: -550px;
-    //             }
-
-    //             @media screen and (max-width: 1150px) {
-    //                 left: -430px;
-    //             }
-
-    //             @media screen and (max-width: 950px) {
-    //                 left: -290px;
-    //             }
-
-    //             @media screen and (max-width: 800px) {
-    //                 left: -210px;
-
-    //                 .stripe-1 {
-    //                     position: relative;
-    //                     height: 40px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -400px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-2 {
-    //                     position: relative;
-    //                     height: 30px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -505px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-3 {
-    //                     position: relative;
-    //                     height: 20px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -587px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-4 {
-    //                     position: relative;
-    //                     height: 15px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -654px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-5 {
-    //                     position: relative;
-    //                     height: 10px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -709px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-6 {
-    //                     position: relative;
-    //                     height: 8px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -758px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-7 {
-    //                     position: relative;
-    //                     height: 6px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -802px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-8 {
-    //                     position: relative;
-    //                     height: 4px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -842px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-9 {
-    //                     position: relative;
-    //                     height: 3px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -878px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-10 {
-    //                     position: relative;
-    //                     height: 2px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -912px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-11 {
-    //                     position: relative;
-    //                     height: 1.5px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -945px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-12 {
-    //                     position: relative;
-    //                     height: 1px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -977px;
-    //                     transform: rotate(-50deg);
-    //                 }
-
-    //                 .stripe-13 {
-    //                     position: relative;
-    //                     height: .5px;
-    //                     width: 260vw;
-    //                     top: 135px;
-    //                     left: -1005px;
-    //                     transform: rotate(-50deg);
-    //                 }
-    //             }
-
-    //             @media screen and (max-width: 750px) {
-    //                 left: -130px;
-    //             }
-
-    //             @media screen and (max-width: 650px) {
-    //                 left: 0px;
-    //             }
-
-    //             @media screen and (max-width: 450px) {
-    //                 left: 175px;
-    //             }
-
-    //             @media screen and (max-width: 375px) {
-    //                 left: 210px;
-    //             }
-    //         }
-
-    //         .about-logo-circle {
-    //             width: 491px;
-    //             height: 491px;
-    //             background-color: $valeYellow;
-    //             border-radius: 50%;
-    //             box-shadow: 5px 10px 20px rgba(85, 81, 90, 0.479);
-    //             position: relative;
-    //             left: 60vw;
-    //             top: -175px;
-
-    //             @media screen and (max-width: 1250px) {
-    //                 left: 650px;
-    //             }
-
-    //             @media screen and (max-width: 1150px) {
-    //                 width: 400px;
-    //                 height: 400px;
-    //                 top: -118px;
-    //                 left: 500px;
-    //             }
-
-    //             @media screen and (max-width: 950px) {
-    //                 width: 345px;
-    //                 height: 345px;
-    //             }
-
-    //             @media screen and (max-width: 850px) {
-    //                 left: 400px;
-    //             }
-
-    //             @media screen and (max-width: 800px) {
-    //                 top: 0px;
-    //                 left: 28.7vw;
-    //             }
-
-    //             @media screen and (max-width: 650px) {
-    //                 width: 325px;
-    //                 height: 325px;
-    //             }
-
-    //             @media screen and (max-width: 550px) {
-    //                 left: 113px;
-    //             }
-
-    //             @media screen and (max-width: 450px) {
-    //                 left: 47.5px;
-    //                 width: 80vw;
-    //                 height: 80vw;
-    //             }
-
-    //             @media screen and (max-width: 400px) {
-    //                 left: 35px;
-    //                 width: 80vw;
-    //                 height: 80vw;
-    //             }
-
-    //             .tom-logo-hair {
-    //                 position: absolute;
-    //                 right: 30px;
-    //                 height: 400px;
-    //                 bottom: 100px;
-
-    //                 @media screen and (max-width: 1150px) {
-    //                     height: 315px;
-    //                     bottom: 90px;
-    //                 }
-
-    //                 @media screen and (max-width: 950px) {
-    //                     height: 270px;
-    //                     bottom: 80px;
-    //                 }
-
-    //                 @media screen and (max-width: 450px) {
-    //                     height: 80%;
-    //                 }
-
-    //                 @media screen and (max-width: 375px) {
-    //                     top: -5px;
-    //                 }
-
-    //                 @media screen and (max-width: 280px) {
-    //                     left: 20px;
-    //                 }
-    //             }
-
-    //             .about-logo-button {
-    //                 height: 7vw;
-    //                 width: 30vw;
-    //                 border: 1px solid black;
-    //                 border-radius: 50px;
-    //                 @include flexCenter(column);
-    //                 position: absolute;
-    //                 bottom: -10px;
-    //                 left: -90px;
-    //                 cursor: pointer;
-
-    //                 @media screen and (max-width: 1250px) {
-    //                     left: -65px;
-    //                 }
-
-    //                 @media screen and (max-width: 1150px) {
-    //                     left: -70px;
-    //                 }
-
-    //                 @media screen and (max-width: 1050px) {
-    //                     left: -55px;
-    //                 }
-
-    //                 @media screen and (max-width: 950px) {
-    //                     left: -50px;
-    //                 }
-
-    //                 @media screen and (max-width: 850px) {
-    //                     left: -45px;
-    //                 }
-
-    //                 @media screen and (max-width: 800px) {
-    //                     top: 60vh;
-    //                     width: 40vh;
-    //                     height: 10vw;
-    //                     left: 20px;
-    //                 }
-
-    //                 @media screen and (max-width: 650px) {
-    //                     left: -32px;
-    //                 }
-
-    //                 @media screen and (max-width: 550px) {
-    //                     left: -7px;
-    //                 }
-
-    //                 @media screen and (max-width: 450px) {
-    //                     left: 8px;
-    //                 }
-
-    //                 @media screen and (max-width: 400px) {
-    //                     left: 0px;
-    //                 }
-
-    //                 a {
-    //                     position: relative;
-    //                     left: 15px;
-    //                     text-decoration: none;
-    //                     font-family: Futura;
-    //                     font-size: 5vw;
-    //                     color: black;
-    //                     letter-spacing: 30px;
-
-    //                     @media screen and (max-width: 1250px) {
-    //                         font-size: 4.5vw;
-    //                     }
-
-    //                     @media screen and (max-width: 1150px) {
-    //                         font-size: 4vw;
-    //                     }
-
-    //                     @media screen and (max-width: 950px) {}
-
-    //                     @media screen and (max-width: 850px) {}
-
-    //                     @media screen and (max-width: 800px) {
-    //                         font-size: 6vw;
-    //                     }
-
-    //                     @media screen and (max-width: 650px) {}
-
-    //                     @media screen and (max-width: 550px) {}
-
-    //                     @media screen and (max-width: 450px) {}
-
-    //                     @media screen and (max-width: 400px) {}
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+    #about {
+        background-image: url("../assets/photos/tom.png");
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 75vh;
+        transform: scaleX(-1);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .about-content{
+            transform: scaleX(-1);
+            padding: 10vw;
+            max-width: 40vw;
+            min-width: 20vw;
+
+            .about-title{
+                font-family: Futura;
+                font-size: 3.5em;
+                margin: auto;
+            }
+    
+            .about-paragraph {
+                font-family: Avenir;
+            }
+        }
+    }
 
     #works {
         height: 100vh;
@@ -868,11 +413,15 @@ body {
                 top: -90vh;
                 left: 12vw;
                 cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 .motogo-logo {
-                    width: 200px;
+                    width: 150px;
                     max-width: 100%;
                     max-height: 100%;
+                    
                 }
             }
 
@@ -885,6 +434,15 @@ body {
                 top: -60vh;
                 left: 12vw;
                 cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .cc-logo {
+                    width: 150px;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
 
             }
 
@@ -897,6 +455,15 @@ body {
                 top: -30vh;
                 left: 12vw;
                 cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .jeopardy-logo {
+                    width: 150px;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
 
             }
         }
@@ -909,8 +476,18 @@ body {
             position: relative;
             top: -92vh;
             left: 30vw;
+            display: flex;
+            justify-content: center;
+            overflow: auto;
 
-
+            .motogo-description {
+                width: 70%;
+                
+                .descripttion-title{
+                    color: $valeYellow;
+                    font-family: Futura;
+                }
+            }
         }
     }
 
@@ -965,7 +542,7 @@ body {
                 justify-content: center;
                 flex-direction: column;
 
-                top .email {
+                .email {
                     width: 100%;
                 }
 
