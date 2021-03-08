@@ -255,13 +255,16 @@ body {
     #works {
         height: 100vh;
         background-color: black;
+        display: flex;
+        justify-content: space-around;
+
 
         .works-container {
             position: relative;
             width: 100vw;
             height: 100vh;
-            z-index: 20;
-
+            margin: 0px;
+            border-bottom: 10px solid black;
             .works-logo {
                 width: 400px;
                 height: 400px;
@@ -346,26 +349,23 @@ body {
                     }
                 }
             }
+        }
 
-            .button {
-                height: 75px;
-                width: 300px;
-                border: 1px solid white;
-                border-radius: 50px;
-                @include flexCenter(column);
-                position: relative;
-                left: 500px;
-                top: 175px;
+        .works-intro-desc{
+            color: $undertakerGrey;
+            font-family: Avenir;
+            font-size: 3.5em;
+            flex-direction: column;
+            max-width: 20vh;
+            position: relative;
+            left: 55vw;
+            top: -37vh;
 
-                a {
-                    text-decoration: none;
-                    font-family: Futura;
-                    font-size: 60px;
-                    color: white;
-                    letter-spacing: 10px;
-                }
+            .works-intro{
+                padding: .4em;
             }
         }
+
     }
 
     .works-page {

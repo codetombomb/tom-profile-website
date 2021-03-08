@@ -332,13 +332,19 @@ body #about .about-content .about-paragraph {
 body #works {
   height: 100vh;
   background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body #works .works-container {
   position: relative;
   width: 100vw;
   height: 100vh;
-  z-index: 20;
+  margin: 0px;
+  border-bottom: 10px solid black;
 }
 
 body #works .works-container .works-logo {
@@ -446,35 +452,22 @@ body #works .works-container .works-logo .brackets .code {
   }
 }
 
-body #works .works-container .button {
-  height: 75px;
-  width: 300px;
-  border: 1px solid white;
-  border-radius: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+body #works .works-intro-desc {
+  color: #838091;
+  font-family: Avenir;
+  font-size: 3.5em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 20vh;
   position: relative;
-  left: 500px;
-  top: 175px;
+  left: 55vw;
+  top: -37vh;
 }
 
-body #works .works-container .button a {
-  text-decoration: none;
-  font-family: Futura;
-  font-size: 60px;
-  color: white;
-  letter-spacing: 10px;
+body #works .works-intro-desc .works-intro {
+  padding: .4em;
 }
 
 body .works-page {
